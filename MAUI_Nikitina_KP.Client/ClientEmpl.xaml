@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Nikitina_KP.Client.ClientEmpl"
+             Title="ClientEmpl"
+             BackgroundColor="#f3f3f3">
+
+    <HorizontalStackLayout HorizontalOptions="Center">
+        <VerticalStackLayout VerticalOptions="Center">
+            <StackLayout Padding="8">
+                <Picker x:Name="typePicker"  BackgroundColor="#b5b5b6" WidthRequest="500" SelectedIndexChanged="OnPickerSelectedIndexChanged" Margin="10,0,10,5" >
+                    <Picker.Items>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Editor x:Name="InformationEditor" Placeholder = "Сообщение:" IsEnabled="False" BackgroundColor="#b5b5b6" WidthRequest="500" HeightRequest="190" Margin="10,5,10,5" />
+            <Editor x:Name="TextEditor" Placeholder = "Ответ:" BackgroundColor="#b5b5b6" WidthRequest="500" HeightRequest="190" Margin="10,5,10,5" />
+            <StackLayout Padding="8">
+                <Picker x:Name="ToNamePicker"  BackgroundColor="#b5b5b6" WidthRequest="500"  Margin="10,5,10,5" >
+                    <Picker.Items>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button x:Name="SendLettersButton"
+                        Clicked="OnSendLettersButtonClicked"
+                        Text="Отправить сообщение"
+                        SemanticProperties.Hint="Counts the number of times you click"
+                        HorizontalOptions="Center"
+                        BackgroundColor="#b3e700"
+                        TextColor="Black"
+                        BorderColor="#9cc900"
+                        WidthRequest="235"
+                        Margin="10,5,10,0"/>
+                <Button x:Name="ClearListButton"
+                        Clicked="OnClearListButtonClicked"
+                        Text="Стереть сообщение"
+                        SemanticProperties.Hint="Counts the number of times you click"
+                        HorizontalOptions="Center"
+                        BackgroundColor="#5b44ff"
+                        TextColor="White"
+                        WidthRequest="235"
+                        Margin="10,10,10,0"/>
+            </HorizontalStackLayout>
+
+
+        </VerticalStackLayout>
+        <VerticalStackLayout VerticalOptions="Center">
+
+            <Image Source="1.gif" />
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Entry x:Name="NameEntry" Placeholder = "Имя" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                <Entry x:Name="SurnameEntry" Placeholder = "Фамилия" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Entry x:Name="SecondnameEntry" Placeholder = "Отчество" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                <Entry x:Name="DateEntry" Placeholder = "Дата рождения (01.01.2001)" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Entry x:Name="EducationEntry" Placeholder = "Образование" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                <Entry x:Name="PostEntry" Placeholder = "Должность" IsEnabled="False" WidthRequest="200" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button x:Name="GoOutButton"
+                        Clicked="OnGoOutButtonClicked"
+                        Text="Выйти"
+                        SemanticProperties.Hint="Counts the number of times you click"
+                        HorizontalOptions="Center"
+                        BackgroundColor="#8c3939"
+                        TextColor="White"
+                        WidthRequest="415"
+                        Margin="10,10,10,0"/>
+            </HorizontalStackLayout>
+            
+
+
+        </VerticalStackLayout>
+
+    </HorizontalStackLayout>
+    
+</ContentPage>

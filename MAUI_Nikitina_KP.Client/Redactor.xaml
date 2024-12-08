@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Nikitina_KP.Client.Redactor"
+             Title="Redactor" BackgroundColor="#f3f3f3">
+    <HorizontalStackLayout HorizontalOptions="Center">
+        <VerticalStackLayout VerticalOptions="Center">
+            <StackLayout Padding="8">
+                <Picker x:Name="typePicker"  BackgroundColor="#b5b5b6" WidthRequest="630" SelectedIndexChanged="OnPickerSelectedIndexChanged" Margin="0,10,10,10" >
+                    <Picker.Items>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <VerticalStackLayout VerticalOptions="Center">
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Entry x:Name="NameEntry" Placeholder = "Имя" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                    <Entry x:Name="SurnameEntry" Placeholder = "Фамилия" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Entry x:Name="SecondnameEntry" Placeholder = "Отчество" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                    <Entry x:Name="DateEntry" Placeholder = "Дата рождения (01.01.2001)" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Entry x:Name="EducationEntry" Placeholder = "Образование" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                    <Entry x:Name="PostEntry" Placeholder = "Должность" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+                </HorizontalStackLayout>
+
+                <Entry x:Name="HistoryEntry" Placeholder = "История" WidthRequest="630" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+
+                    <Button x:Name="RedactorButton"
+                            Clicked="OnRedactorButtonClicked"
+                            Text="Редактировать"
+                            SemanticProperties.Hint="Counts the number of times you click"
+                            HorizontalOptions="Center"
+                            BackgroundColor="#b3e700"
+                            TextColor="Black"
+                            BorderColor="#9cc900"
+                            WidthRequest="150"
+                            Margin="0,10,10,0"/>
+                    <Button x:Name="GoOutButton"
+                            Clicked="OnGoOutButtonClicked"
+                            Text="Назад"
+                            SemanticProperties.Hint="Counts the number of times you click"
+                            HorizontalOptions="Center"
+                            BackgroundColor="#5b44ff"
+                            TextColor="White"
+                            WidthRequest="150"
+                            Margin="0,10,10,0"/>
+                    <Button x:Name="DeleteButton"
+                            Clicked="OnDeleteButtonClicked"
+                            Text="Удалить"
+                            SemanticProperties.Hint="Counts the number of times you click"
+                            HorizontalOptions="Center"
+                            BackgroundColor="#8b3939"
+                            TextColor="White"
+                            WidthRequest="150"
+                            Margin="0,10,10,0"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            <!--<Editor x:Name="InformationEditor" BackgroundColor="#b5b5b6" WidthRequest="500" HeightRequest="400" Margin="10,10,10,10" />-->
+        </VerticalStackLayout>
+        
+    </HorizontalStackLayout>
+    
+    
+</ContentPage>

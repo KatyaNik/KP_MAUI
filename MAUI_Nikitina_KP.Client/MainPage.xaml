@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Nikitina_KP.Client.MainPage" BackgroundColor="#f3f3f3">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+        <Entry x:Name="LoginEntry" Placeholder = "Логин" WidthRequest="250" BackgroundColor="#b5b5b6"/>
+        <Entry x:Name="PasswordEntry" Placeholder = "Пароль" IsPassword="True" WidthRequest="250" BackgroundColor="#b5b5b6"/>
+        <HorizontalStackLayout
+        HorizontalOptions="Center">
+            <Button
+            x:Name="LoginButton"
+            Clicked="OnLoginButtonClicked"
+            Text="Войти"
+            SemanticProperties.Hint="Counts the number of times you click"
+            HorizontalOptions="Center"
+            BackgroundColor="#b3e700"
+            TextColor="Black"
+            BorderColor="#9cc900"
+            Margin="10,0,10,0"
+                WidthRequest="250"/>
+
+            
+        </HorizontalStackLayout>
+
+
+    </VerticalStackLayout>
+
+
+</ContentPage>

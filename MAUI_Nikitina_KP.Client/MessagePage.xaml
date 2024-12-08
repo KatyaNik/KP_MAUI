@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Nikitina_KP.Client.MessagePage"
+             Title="MessagePage"
+              BackgroundColor="#f3f3f3">
+    <VerticalStackLayout>
+        <StackLayout Padding="8">
+            <Picker x:Name="typePicker"  BackgroundColor="#b5b5b6" WidthRequest="490" SelectedIndexChanged="OnPickerSelectedIndexChanged" Margin="15,15,10,5" >
+                <Picker.Items>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+        <Editor x:Name="InformationEditor" IsEnabled="False" Placeholder = "Сообщение" BackgroundColor="#b5b5b6" WidthRequest="490" HeightRequest="200" Margin="10,5,5,5" />
+        
+        <Editor x:Name="TextEditor" Placeholder = "Ответ" BackgroundColor="#b5b5b6" WidthRequest="490" HeightRequest="150" Margin="15,5,10,5" />
+        <StackLayout Padding="8">
+            <Picker x:Name="ToNamePicker"  BackgroundColor="#b5b5b6" WidthRequest="490"  Margin="15,5,10,5" >
+                <Picker.Items>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button x:Name="SendLettersButton"
+                    Clicked="OnSendLettersButtonClicked"
+                    Text="Отправить сообщение"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#b3e700"
+                    TextColor="Black"
+                    BorderColor="#9cc900"
+                    WidthRequest="235"
+                    HeightRequest="50"
+                    Margin="17,10,10,0"/>
+            <Button x:Name="ClearListButton"
+                    Clicked="OnClearListButtonClicked"
+                    Text="Стереть сообщение"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#5b44ff"
+                    TextColor="White"
+                    WidthRequest="235"
+                    HeightRequest="50"
+                    Margin="10,10,10,0"/>
+            <Button x:Name="GoOutButton"
+                    Clicked="OnGoOutButtonClicked"
+                    Text="Назад"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#8c3939"
+                    TextColor="White"
+                    WidthRequest="235"
+                    HeightRequest="50"
+                    Margin="10,10,10,0"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+    
+</ContentPage>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MAUI_Nikitina_KP.Client.Registration"
+             Title="Registration" BackgroundColor="#f3f3f3">
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Entry x:Name="LoginEntry" Placeholder = "Логин" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            <Entry x:Name="PasswordEntry" Placeholder="Пароль" 
+       WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+
+
+
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Entry x:Name="NameEntry" Placeholder = "Имя" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            <Entry x:Name="SurnameEntry" Placeholder = "Фамилия" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Entry x:Name="SecondnameEntry" Placeholder = "Отчество" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            <Entry x:Name="DateEntry" Placeholder = "Дата рождения (01.01.2001)" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Entry x:Name="EducationEntry" Placeholder = "Образование" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+            <Entry x:Name="PostEntry" Placeholder = "Должность" WidthRequest="310" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+        </HorizontalStackLayout>
+
+        <Entry x:Name="HistoryEntry" Placeholder = "История" WidthRequest="630" BackgroundColor="#b5b5b6" Margin="0,10,10,10"/>
+        
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <Button x:Name="RegistrationButton"
+                    Clicked="OnRegistrationButtonClicked"
+                Text="Зарегистрироваться"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="Center"
+                BackgroundColor="#b3e700"
+                TextColor="Black"
+                BorderColor="#9cc900"
+                WidthRequest="200"
+                Margin="0,10,10,0"/>
+            <Button x:Name="GoOutButton"
+                    Clicked="OnGoOutButtonClicked"
+                Text="Назад"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="Center"
+                BackgroundColor="#5b44ff"
+                TextColor="White"
+                WidthRequest="100"
+                Margin="0,10,10,0"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

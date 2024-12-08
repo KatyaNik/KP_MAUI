@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUI_Nikitina_KP.Client
+build_property.ProjectDir = C:\Users\honor\source\repos\MAUI_Nikitina_KP\MAUI_Nikitina_KP.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/Admin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.Admin.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/ClientEmpl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.ClientEmpl.xaml
+build_metadata.AdditionalFiles.TargetPath = ClientEmpl.xaml
+build_metadata.AdditionalFiles.RelativePath = ClientEmpl.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/MessagePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.MessagePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MessagePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MessagePage.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/Redactor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.Redactor.xaml
+build_metadata.AdditionalFiles.TargetPath = Redactor.xaml
+build_metadata.AdditionalFiles.RelativePath = Redactor.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/Registration.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.Registration.xaml
+build_metadata.AdditionalFiles.TargetPath = Registration.xaml
+build_metadata.AdditionalFiles.RelativePath = Registration.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/honor/source/repos/MAUI_Nikitina_KP/MAUI_Nikitina_KP.Client/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Nikitina_KP.Client.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

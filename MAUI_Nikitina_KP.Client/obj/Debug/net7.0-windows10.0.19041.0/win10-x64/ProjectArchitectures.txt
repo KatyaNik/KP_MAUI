@@ -1,0 +1,2 @@
+C:\Users\honor\source\repos\MAUI_Nikitina_KP\MAUI_Nikitina_KP.Client\MAUI_Nikitina_KP.Client.csproj;x64
+C:\Users\honor\source\repos\MAUI_Nikitina_KP\MAUI_Nikitina_KP.Shared\MAUI_Nikitina_KP.Shared.csproj;neutral

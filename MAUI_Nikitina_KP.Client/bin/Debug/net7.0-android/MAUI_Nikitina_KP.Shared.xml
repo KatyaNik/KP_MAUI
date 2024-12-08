@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MAUI_Nikitina_KP.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial1">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial2">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial3">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial4">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial5">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial5.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial5.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial5.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial6">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial6.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial6.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial6.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial7">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial7.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial7.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial7.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MAUI_Nikitina_KP.Shared.Migrations.Initial8">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial8.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial8.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Migrations.Initial8.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Services.LocalDatabase.#ctor">
+            <summary>
+            Constructor for creating migrations
+            </summary>
+        </member>
+        <member name="M:MAUI_Nikitina_KP.Shared.Services.LocalDatabase.#ctor(System.String)">
+            <summary>
+            Constructor for mobile app
+            </summary>
+            <param name="filenameWithPath"></param>
+        </member>
+    </members>
+</doc>
